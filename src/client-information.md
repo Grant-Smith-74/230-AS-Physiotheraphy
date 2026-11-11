@@ -16,15 +16,15 @@ citation: "Holly Wrigley"
 
 Physiotherapy:
 
-£50 initial (45 mins) and £40 follow up (30mins, treatment session).
+£65 initial (45 mins) and £50 for follow up (30 mins treatment session).
 
 Sports Massage:
 
-£70 per hour, £40 per half hour
+£80 per hour and £50 per half hour.
 
 **Methods of payment:**
 
-Card, cash, cheque or BACS.
+Card/phone, cash or BACS.
 
 **Treatment:**
 
