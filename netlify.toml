@@ -1,0 +1,7 @@
+# Compiled CSS, JS and images are committed in src/_includes/assets,
+# so Netlify only needs to run Eleventy. The Gulp pipeline (node-sass,
+# gulp-image) no longer builds on current Node and is skipped here.
+# Run `npm run production` locally only if the SCSS/JS sources change.
+[build]
+  command = "ELEVENTY_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
+  publish = "dist"
