@@ -5,3 +5,9 @@
 [build]
   command = "ELEVENTY_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
   publish = "dist"
+
+[build.environment]
+  # Overrides the old Node 12 pin in the Netlify UI.
+  NODE_VERSION = "20"
+  # Skip native builds (node-sass etc.) that fail on modern Node; not needed for Eleventy.
+  NPM_FLAGS = "--ignore-scripts --legacy-peer-deps"
