@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "eleventy",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "source ~/.nvm/nvm.sh && nvm use 20 >/dev/null && ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve --port=8080"
+      ],
+      "port": 8080
+    }
+  ]
+}
